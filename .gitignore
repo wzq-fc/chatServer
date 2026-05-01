@@ -1,0 +1,6 @@
+# 忽略编译产生的文件和目录
+build/ bin/ *.o *.a *.so
+# 忽略 VS Code 配置文件
+.vscode/
+# 忽略可能产生的日志或临时文件
+*.log *.tmp
