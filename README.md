@@ -30,14 +30,14 @@ user, friend, allgroup, groupuser, offlinemessage
 3. 编译项目
 
 在项目根目录执行：
-
+bash
 mkdir build && cd build
 cmake ..
 make
-
+```
 
 4. 启动服务
-
+bash
 # 启动基础组件
 sudo /usr/local/nginx/sbin/nginx
 sudo service mysql start
@@ -50,7 +50,7 @@ cd bin/
 
 # 启动客户端测试 (直接连接 Nginx 代理端口，假设为 8000)
 ./chatClient 127.0.0.1 8000
-
+```
 
 客户端支持的命令
 
