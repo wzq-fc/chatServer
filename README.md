@@ -37,20 +37,20 @@ make
 ```
 
 4. 启动服务
-bash
-# 启动基础组件
+
+**# 启动基础组件**
 ```bash
 sudo /usr/local/nginx/sbin/nginx
 sudo service mysql start
 sudo service redis-server start
 ```
-# 启动多个 ChatServer 服务端节点 (绑定不同端口)
+**# 启动多个 ChatServer 服务端节点 (绑定不同端口)**
 ```bash
 cd bin/
 ./chatServer 127.0.0.1 6000
 ./chatServer 127.0.0.1 6002
 ```
-# 启动客户端测试 (直接连接 Nginx 代理端口，假设为 8000)
+**# 启动客户端测试 (直接连接 Nginx 代理端口，假设为 8000)**
 ```bash
 ./chatClient 127.0.0.1 8000
 ```
