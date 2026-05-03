@@ -1,4 +1,4 @@
-Cluster-Chat-Server (集群聊天服务器)
+# Cluster-Chat-Server (集群聊天服务器)
 
 基于 C++11 和 Muduo 网络库实现的分布式聊天服务器。
 利用 Nginx 实现 TCP 负载均衡，通过 Redis 的发布-订阅机制解决多机环境下的跨节点通信问题，并使用 MySQL 进行数据持久化。
